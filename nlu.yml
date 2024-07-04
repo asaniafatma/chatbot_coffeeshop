@@ -1,0 +1,524 @@
+version: "3.1"
+
+nlu:
+- intent: sapa
+  examples: |
+    - hey
+    - hai
+    - hei
+    - hi
+    - hello
+    - halo
+    - selamat pagi
+    - selamat siang
+    - selamat sore
+    - selamat malam
+    - Assalamualaikum
+    - permisi
+
+- intent: start
+  examples: |
+    - start
+
+- intent: fitur
+  examples: |
+    - ya
+
+- intent: bukapagidanrating
+  examples: |
+    - ya
+
+- intent: berdasarkanfasilitas
+  examples: |
+    - ya
+
+- intent: cabangcoffeeshop
+  examples: |
+    - ya
+
+- intent: coffeshop_ngaliyan
+  examples: |
+    - coffeshop di daerah ngaliyan
+    - tempat ngopi di kecamatan ngaliyan
+    - ngopi di ngaliyan
+    - rekomendasi tempat ngopi di ngaliyan
+    - rekomendasi coffeshop di ngaliyan
+
+- intent: kopi_kenangan
+  examples: |
+    - ya
+
+- intent: folkafe
+  examples: |
+    - ya
+
+- intent: sora
+  examples: |
+    - ya
+
+- intent: starbucks
+  examples: |
+    - ya
+
+- intent: semilir
+  examples: |
+    - ya
+
+- intent: buka_pagi_hari
+  examples: |
+    - coffeshop yang buka pagi hari di ngaliyan
+    - tempat ngopi yang buka besok pagi di ngaliyan
+    - tempat ngopi yang buka waktu pagi di ngaliyan
+    - coffeshop buka jam 6 di ngaliyan
+    - tempat ngopi buka jam 6 di ngaliyan
+    - coffeshop buka jam 7 di ngaliyan
+    - tempat ngopi buka jam 7 di ngaliyan
+
+- intent: rating_ngaliyan
+  examples: |
+    - rating bagus di ngaliyan
+    - tempat ngopi yang ratingnya bagus di ngaliyan
+    - coffeshop yang paling bagus ratingnya di ngaliyan
+
+- intent: coffeshop_BSB
+  examples: |
+    - coffeshop di daerah BSB bsb
+    - tempat ngopi di kecamatan BSB bsb
+    - ngopi di BSB bsb
+    - rekomendasi tempat ngopi di BSB bsb
+    - rekomendasi coffeshop di BSB bsb
+
+- intent: janji_jiwa
+  examples: |
+    - ya
+
+- intent: kopi_kebun
+  examples: |
+    - ya
+
+- intent: antarakata
+  examples: |
+    - ya
+
+- intent: mr.k
+  examples: |
+    - ya
+
+- intent: kopi_prabu
+  examples: |
+    - ya
+
+- intent: kebun
+  examples: |
+    - ya
+
+- intent: buka_pagi_hari2
+  examples: |
+    - coffeshop yang buka pagi hari di BSB bsb
+    - tempat ngopi yang buka besok pagi di BSB bsb
+    - tempat ngopi yang buka waktu pagidi BSB bsb
+    - coffeshop buka jam 7 di BSB bsb
+    - tempat ngopi buka jam 7 di BSB bsb
+
+- intent: rating_bsb
+  examples: |
+    - rating bagus di BSB
+    - rating bagus di bsb
+    - tempat ngopi yang ratingnya bagus di BSB 
+    - tempat ngopi yang ratingnya bagus di bsb
+    - coffeshop yang paling bagus ratingnya di BSB 
+    - coffeshop yang paling bagus ratingnya di bsb
+
+- intent: coffeshop_semteng
+  examples: |
+    - coffeshop di daerah semarang tengah
+    - tempat ngopi di kecamatan semarang tengah
+    - ngopi di kecamatan semarang tengah
+    - rekomendasi tempat ngopi di kecamatan semarang tengah
+    - rekomendasi coffeshop di kecamatan semarang tengah
+
+- intent: antarakata2
+  examples: |
+    - ya
+
+- intent: eastman
+  examples: |
+    - ya
+
+- intent: oldkettle
+  examples: |
+    - ya
+
+
+- intent: starbucks2
+  examples: |
+    - ya
+
+- intent: anakpanah
+  examples: |
+    - ya
+
+- intent: starbucks3
+  examples: |
+    - ya
+
+- intent: starbucks4
+  examples: |
+    - ya
+
+- intent: starbucks5
+  examples: |
+    - ya
+
+- intent: buka_pagi_hari3
+  examples: |
+    - coffeshop yang buka pagi hari di semarang tengah
+    - tempat ngopi yang buka besok pagi di semarang tengah
+    - tempat ngopi yang buka waktu pagidi semarang tengah
+    - coffeshop buka jam 7 di semarang tengah
+    - tempat ngopi buka jam 7 di semarang tengah
+
+- intent: rating_semteng
+  examples: |
+    - rating bagus di semarang tengah
+    - tempat ngopi yang ratingnya bagus di semarang tengah
+    - coffeshop yang paling bagus ratingnya di semarang tengah
+
+- intent: coffeshop_gajahmungkur
+  examples: |
+    - coffeshop di daerah gajah mungkur
+    - tempat ngopi di kecamatan gajah mungkur
+    - ngopi di kecamatan gajah mungkur
+    - rekomendasi tempat ngopi di kecamatan gajah mungkur
+    - rekomendasi coffeshop di kecamatan gajah mungkur
+
+- intent: moment
+  examples: |
+    - ya
+
+- intent: kopsus
+  examples: |
+    - ya
+
+- intent: strada
+  examples: |
+    - ya
+
+- intent: tune
+  examples: |
+    - ya
+
+- intent: semasa
+  examples: |
+    - ya
+
+- intent: excelso
+  examples: |
+    - ya
+
+- intent: buka_pagi_hari4
+  examples: |
+    - coffeshop yang buka pagi hari di kecamatan gajah mungkur
+    - tempat ngopi yang buka besok pagi di gajah mungkur
+    - tempat ngopi yang buka waktu pagidi gajah mungkur
+    - coffeshop buka jam 7 di gajah mungkur
+    - tempat ngopi buka jam 7 di gajah mungkur
+
+- intent: rating_gajahmungkur
+  examples: |
+    - rating bagus di gajah mungkur
+    - tempat ngopi yang ratingnya bagus di gajah mungkur
+    - coffeshop yang paling bagus ratingnya di gajah mungkur
+
+- intent: coffeshop_semsel
+  examples: |
+    - coffeshop di daerah semarang selatan
+    - tempat ngopi di kecamatan semarang selatan
+    - ngopi di kecamatan semarang selatan
+    - rekomendasi tempat ngopi di kecamatan semarang selatan
+    - rekomendasi coffeshop di kecamatan semarang selatan
+
+- intent: anakpanah1
+  examples: |
+    - ya
+
+- intent: blue
+  examples: |
+    - ya
+
+- intent: terra
+  examples: |
+    - ya
+
+- intent: tepian
+  examples: |
+    - ya
+
+- intent: hoc
+  examples: |
+    - ya
+
+- intent: pulang
+  examples: |
+    - ya
+
+- intent: janji_jiwa2
+  examples: |
+    - ya
+
+- intent: koffitiere
+  examples: |
+    - ya
+
+- intent: buka_pagi_hari5
+  examples: |
+    - coffeshop yang buka pagi hari di kecamatan semarang selatan
+    - tempat ngopi yang buka besok pagi di semarang selatan
+    - tempat ngopi yang buka waktu pagi di semarang selatan
+    - coffeshop buka jam 7 di semarang selatan
+    - tempat ngopi buka jam 7 di semarang selatan
+
+- intent: rating_semsel
+  examples: |
+    - rating bagus di semarang selatan
+    - tempat ngopi yang ratingnya bagus di semarang selatan
+    - coffeshop yang paling bagus ratingnya di semarang selatan
+
+- intent: coffeshop_banyumanik
+  examples: |
+    - coffeshop di daerah banyumanik
+    - tempat ngopi di kecamatan banyumanik
+    - ngopi di kecamatan banyumanik
+    - rekomendasi tempat ngopi di kecamatan banyumanik
+    - rekomendasi coffeshop di kecamatan banyumanik
+
+- intent: folkafe2
+  examples: |
+    - ya
+
+- intent: antarakata3
+  examples: |
+    - ya
+
+- intent: buka_pagi_hari6
+  examples: |
+    - coffeshop yang buka pagi hari di kecamatan banyumanik
+    - tempat ngopi yang buka besok pagi di banyumanik
+    - tempat ngopi yang buka waktu pagi di banyumanik
+    - coffeshop buka jam 7 di banyumanik
+    - tempat ngopi buka jam 7 di banyumanik
+
+- intent: rating_banyumanik
+  examples: |
+    - rating bagus di banyumanik
+    - tempat ngopi yang ratingnya bagus di banyumanik
+    - coffeshop yang paling bagus ratingnya di banyumanik
+
+- intent: coffeshop_candisari
+  examples: |
+    - coffeshop di daerah candisari
+    - tempat ngopi di kecamatan candisari
+    - ngopi di kecamatan candisari
+    - rekomendasi tempat ngopi di kecamatan candisari
+    - rekomendasi coffeshop di kecamatan candisari
+
+- intent: makabana
+  examples: |
+    - ya
+
+- intent: encycoffeedia
+  examples: |
+    - ya
+
+- intent: rating_candisari
+  examples: |
+    - rating bagus di candisari
+    - tempat ngopi yang ratingnya bagus di candisari
+    - coffeshop yang paling bagus ratingnya di candisari
+
+- intent: coffeshop_sembar
+  examples: |
+    - coffeshop di daerah semarang barat
+    - tempat ngopi di kecamatan semarang barat
+    - ngopi di kecamatan semarang barat
+    - rekomendasi tempat ngopi di kecamatan semarang barat
+    - rekomendasi coffeshop di kecamatan semarang barat
+
+- intent: skenario
+  examples: |
+    - ya
+
+- intent: temani
+  examples: |
+    - ya
+
+- intent: rating_sembar
+  examples: |
+    - rating bagus di semarang barat
+    - tempat ngopi yang ratingnya bagus di semarang barat
+    - coffeshop yang paling bagus ratingnya di semarang barat
+
+- intent: coffeshop_semtim
+  examples: |
+    - coffeshop di daerah semarang timur
+    - tempat ngopi di kecamatan semarang timur
+    - ngopi di kecamatan semarang timur
+    - rekomendasi tempat ngopi di kecamatan semarang timur
+    - rekomendasi coffeshop di kecamatan semarang timur
+
+- intent: anetos
+  examples: |
+    - ya
+
+- intent: casa
+  examples: |
+    - ya
+
+- intent: rating_semtim
+  examples: |
+    - rating bagus di semarang timur
+    - tempat ngopi yang ratingnya bagus di semarang timur
+    - coffeshop yang paling bagus ratingnya di semarang timur
+
+- intent: coffeshop_tembalang
+  examples: |
+    - coffeshop di daerah tembalang
+    - tempat ngopi di kecamatan tembalang
+    - ngopi di kecamatan tembalang
+    - rekomendasi tempat ngopi di kecamatan tembalang
+    - rekomendasi coffeshop di kecamatan tembalang
+
+- intent: teman
+  examples: |
+    - ya
+
+- intent: coffeshop_semut
+  examples: |
+    - coffeshop di daerah semarang utara
+    - tempat ngopi di kecamatan semarang utara
+    - ngopi di kecamatan semarang utara
+    - rekomendasi tempat ngopi di kecamatan semarang utara
+    - rekomendasi coffeshop di kecamatan semarang utara
+
+- intent: loko
+  examples: |
+    - ya
+
+- intent: aesthetic
+  examples: |
+    - coffeshop mana yang punya tempat aesthetic
+    - coffeshop aesthetic di semarang
+    - tempat ngopi mana yang punya tempat aesthetic
+    - tempat ngopi yang aesthetic di semarang
+    - rekomendasi coffeshop aesthetic di semarang
+    - rekomendasi tempat ngopi aesthetic di semarang
+
+- intent: citylight
+  examples: |
+    - coffeshop yang memiliki view citilight di semarang
+    - tempat ngopi yang memiliki view citilight di semarang
+    - rekomendasi coffeshop yang memiliki view citilight di semarang
+    - rekomendasi tempat ngopi yang memiliki view citilight di semarang
+    - Adakah coffeeshop di semarang yang memiliki pemandangan city light yang menarik?
+
+- intent: kursikhusus
+  examples: |
+    - fasilitas kursi khusus pengguna kursi roda
+    - coffeeshop yang memiliki fasilitas kursi khusus pengguna kursi roda
+    - tempat ngopi yang memiliki fasilitas kursi khusus pengguna kursi roda
+
+- intent: toiletkhusus
+  examples: |
+    - fasilitas toilet khusus pengguna kursi roda
+    - coffeeshop yang memiliki fasilitas toilet khusus pengguna kursi roda
+    - tempat ngopi yang memiliki fasilitas toilet khusus pengguna kursi roda
+
+- intent: livemusic
+  examples: |
+    - coffeshop yang memiliki fasilitas live music di semarang
+    - tempat ngopi yang memiliki fasilitas live music di semarang
+    - rekomendasi coffeshop yang memiliki fasilitas live music di semarang
+    - rekomendasi tempat ngopi yang memiliki fasilitas live music di semarang
+    - Adakah coffeeshop di semarang yang memiliki fasilitas live music?
+
+- intent: danau
+  examples: |
+    - coffeshop yang memiliki view danau di semarang
+    - tempat ngopi yang memiliki view danau di semarang
+    - rekomendasi coffeshop yang memiliki view danau di semarang
+    - rekomendasi tempat ngopi yang memiliki view danau di semarang
+    - Adakah coffeeshop di semarang yang memiliki pemandangan danau yang menarik?
+
+- intent: babychair
+  examples: |
+    - coffeshop yang memiliki baby chair di semarang
+    - tempat ngopi yang memiliki baby chair di semarang
+    - rekomendasi coffeshop yang memiliki baby chair di semarang
+    - rekomendasi tempat ngopi yang memiliki baby chair di semarang
+    - Adakah coffeeshop di semarang yang memiliki baby chair?
+
+- intent: cabangfolkafe
+  examples: |
+    - cabang folkafe ada dimana saja?
+    - folkafe ada dimana saja?
+    - apa folkafe hanya ada di ngaliyan?
+    - apa folkafe hanya ada di setiabudi?
+    - folkafe disemarang dimana aja cabangnya?
+
+- intent: cabangstarbucks
+  examples: |
+    - cabang starbucks ada dimana saja?
+    - starbucks ada dimana saja?
+    - starbucks disemarang dimana aja cabangnya?
+
+- intent: cabangkopijanjijiwa
+  examples: |
+    - cabang kopi janji jiwa ada dimana saja?
+    - kopi janji jiwa ada dimana saja?
+    - kopi janji jiwa disemarang dimana aja cabangnya?
+
+- intent: cabangantarakata
+  examples: |
+    - cabang antarakata ada dimana saja?
+    - antarakata ada dimana saja?
+    - antarakata disemarang dimana aja cabangnya?
+
+- intent: cabanganakpanah
+  examples: |
+    - cabang anak panah kopi ada dimana saja?
+    - anak panah kopi ada dimana saja?
+    - anak panah kopi disemarang dimana aja cabangnya?
+
+- intent: cabangkopikebun
+  examples: |
+    - cabang kopi kebun ada dimana saja?
+    - kopi kebun ada dimana saja?
+    - kopi kebun disemarang dimana aja cabangnya?
+
+- intent: rekomendasicabang
+  examples: |
+    - rekomendasi cabang dari masing coffee shop
+    - cabang dari masing coffee shop
+
+- intent: penutup
+  examples: |
+    - Terimakasih
+    - Oke
+    - Okay
+    - Ok
+    - sampai jumpa
+    - selesai
+    - daa
+    - bye
+    - see you
+    - Saya ingin berhenti
+    - Stop
+    - berhenti
+    - akhiri chat
+    - makasih
+
+- intent: bot_challenge
+  examples: |
+    - apakah kamu sebuah bot?
+    - kamu siapa?
+    - apakah saya berbicara dengan bot?

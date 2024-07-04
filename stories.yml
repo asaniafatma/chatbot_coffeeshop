@@ -1,0 +1,454 @@
+version: "3.1"
+
+stories:
+
+- story: awalan
+  steps:
+  - intent: sapa
+  - action: utter_sapa
+
+- story: start
+  steps:
+  - intent: start
+  - action: utter_start
+
+- story: fitur
+  steps:
+  - intent: fitur
+  - action: utter_fitur
+
+- story: bukapagidanrating
+  steps:
+  - intent: bukapagidanrating
+  - action: utter_bukapagidanrating
+
+- story: berdasarkanfasilitas
+  steps:
+  - intent: berdasarkanfasilitas
+  - action: utter_berdasarkanfasilitas
+
+- story: cabangcoffeeshop
+  steps:
+  - intent: cabangcoffeeshop
+  - action: utter_cabangcoffeeshop
+
+- story: coffeshop_ngaliyan
+  steps:
+  - intent: coffeshop_ngaliyan
+  - action: utter_coffeshop_ngaliyan
+
+- story: kopi_kenangan_ngaliyan
+  steps:
+  - intent: kopi_kenangan
+  - action: utter_kopi_kenangan
+
+- story: folkafe
+  steps:
+  - intent: folkafe
+  - action: utter_folkafe
+
+- story: starbucks
+  steps:
+  - intent: starbucks
+  - action: utter_starbucks
+
+- story: sora
+  steps:
+  - intent: sora
+  - action: utter_sora
+
+- story: semilir
+  steps:
+  - intent: semilir
+  - action: utter_semilir
+
+- story: buka_pagi_hari
+  steps:
+  - intent: buka_pagi_hari
+  - action: utter_buka_pagi_hari
+
+- story: rating_ngaliyan
+  steps:
+  - intent: rating_ngaliyan
+  - action: utter_rating_ngaliyan
+
+- story: coffeshop_BSB
+  steps:
+  - intent: coffeshop_BSB
+  - action: utter_coffeshop_BSB
+
+- story: janji_jiwa
+  steps:
+  - intent: janji_jiwa
+  - action: utter_janji_jiwa
+
+- story: kopi_kebun
+  steps:
+  - intent: kopi_kebun
+  - action: utter_kopi_kebun
+
+- story: antarakata
+  steps:
+  - intent: antarakata
+  - action: utter_antarakata
+
+- story: mr.k
+  steps:
+  - intent: mr.k
+  - action: utter_mr.k
+
+- story: kopi_prabu
+  steps:
+  - intent: kopi_prabu
+  - action: utter_kopi_prabu
+
+- story: kebun
+  steps:
+  - intent: kebun
+  - action: utter_kebun
+
+- story: buka_pagi_hari2
+  steps:
+  - intent: buka_pagi_hari2
+  - action: utter_buka_pagi_hari2
+
+- story: rating_bsb
+  steps:
+  - intent: rating_bsb
+  - action: utter_rating_bsb
+
+- story: coffeshop_semteng
+  steps:
+  - intent: coffeshop_semteng
+  - action: utter_coffeshop_semteng
+
+- story: antarakata2
+  steps:
+  - intent: antarakata2
+  - action: utter_antarakata2
+
+- story: eastman
+  steps:
+  - intent: eastman
+  - action: utter_eastman
+
+- story: oldkettle
+  steps:
+  - intent: oldkettle
+  - action: utter_oldkettle
+
+- story: starbucks2
+  steps:
+  - intent: starbucks2
+  - action: utter_starbucks2
+
+- story: anakpanah
+  steps:
+  - intent: anakpanah
+  - action: utter_anakpanah
+
+- story: starbucks3
+  steps:
+  - intent: starbucks3
+  - action: utter_starbucks3
+
+- story: starbucks4
+  steps:
+  - intent: starbucks4
+  - action: utter_starbucks4
+
+- story: starbucks5
+  steps:
+  - intent: starbucks5
+  - action: utter_starbucks5
+
+- story: buka_pagi_hari3
+  steps:
+  - intent: buka_pagi_hari3
+  - action: utter_buka_pagi_hari3
+
+- story: rating_semteng
+  steps:
+  - intent: rating_semteng
+  - action: utter_rating_semteng
+
+- story: coffeshop_gajahmungkur
+  steps:
+  - intent: coffeshop_gajahmungkur
+  - action: utter_coffeshop_gajahmungkur
+
+- story: moment
+  steps:
+  - intent: moment
+  - action: utter_moment
+
+- story: kopsus
+  steps:
+  - intent: kopsus
+  - action: utter_kopsus
+
+- story: strada
+  steps:
+  - intent: strada
+  - action: utter_strada
+
+- story: tune
+  steps:
+  - intent: tune
+  - action: utter_tune
+
+- story: semasa
+  steps:
+  - intent: semasa
+  - action: utter_semasa
+
+- story: excelso
+  steps:
+  - intent: excelso
+  - action: utter_excelso
+
+- story: buka_pagi_hari4
+  steps:
+  - intent: buka_pagi_hari4
+  - action: utter_buka_pagi_hari4
+
+- story: rating_gajahmungkur
+  steps:
+  - intent: rating_gajahmungkur
+  - action: utter_rating_gajahmungkur
+
+- story: coffeshop_semsel
+  steps:
+  - intent: coffeshop_semsel
+  - action: utter_coffeshop_semsel
+
+- story: anakpanah1
+  steps:
+  - intent: anakpanah1
+  - action: utter_anakpanah1
+
+- story: blue
+  steps:
+  - intent: blue
+  - action: utter_blue
+
+- story: terra
+  steps:
+  - intent: terra
+  - action: utter_terra
+
+- story: tepian
+  steps:
+  - intent: tepian
+  - action: utter_tepian
+
+- story: hoc
+  steps:
+  - intent: hoc
+  - action: utter_hoc
+
+- story: pulang
+  steps:
+  - intent: pulang
+  - action: utter_pulang
+
+- story: janji_jiwa2
+  steps:
+  - intent: janji_jiwa2
+  - action: utter_janji_jiwa2
+
+- story: koffitiere
+  steps:
+  - intent: koffitiere
+  - action: utter_koffitiere
+
+- story: buka_pagi_hari5
+  steps:
+  - intent: buka_pagi_hari5
+  - action: utter_buka_pagi_hari5
+
+- story: rating_semsel
+  steps:
+  - intent: rating_semsel
+  - action: utter_rating_semsel
+
+- story: coffeshop_banyumanik
+  steps:
+  - intent: coffeshop_banyumanik
+  - action: utter_coffeshop_banyumanik
+
+- story: folkafe2
+  steps:
+  - intent: folkafe2
+  - action: utter_folkafe2
+
+- story: antarakata3
+  steps:
+  - intent: antarakata3
+  - action: utter_antarakata3
+
+- story: buka_pagi_hari6
+  steps:
+  - intent: buka_pagi_hari6
+  - action: utter_buka_pagi_hari6
+
+- story: rating_banyumanik
+  steps:
+  - intent: rating_banyumanik
+  - action: utter_rating_banyumanik
+
+- story: coffeshop_candisari
+  steps:
+  - intent: coffeshop_candisari
+  - action: utter_coffeshop_candisari
+
+- story: makabana
+  steps:
+  - intent: makabana
+  - action: utter_makabana
+
+- story: encycoffeedia
+  steps:
+  - intent: encycoffeedia
+  - action: utter_encycoffeedia
+
+- story: rating_candisari
+  steps:
+  - intent: rating_candisari
+  - action: utter_rating_candisari
+
+- story: coffeshop_sembar
+  steps:
+  - intent: coffeshop_sembar
+  - action: utter_coffeshop_sembar
+
+- story: skenario
+  steps:
+  - intent: skenario
+  - action: utter_skenario
+
+- story: temani
+  steps:
+  - intent: temani
+  - action: utter_temani
+
+- story: rating_sembar
+  steps:
+  - intent: rating_sembar
+  - action: utter_rating_sembar
+
+- story: coffeshop_semtim
+  steps:
+  - intent: coffeshop_semtim
+  - action: utter_coffeshop_semtim
+
+- story: anetos
+  steps:
+  - intent: anetos
+  - action: utter_anetos
+
+- story: casa
+  steps:
+  - intent: casa
+  - action: utter_casa
+
+- story: rating_semtim
+  steps:
+  - intent: rating_semtim
+  - action: utter_rating_semtim
+
+- story: coffeshop_tembalang
+  steps:
+  - intent: coffeshop_tembalang
+  - action: utter_coffeshop_tembalang
+
+- story: teman
+  steps:
+  - intent: teman
+  - action: utter_teman
+
+- story: coffeshop_semut
+  steps:
+  - intent: coffeshop_semut
+  - action: utter_coffeshop_semut
+
+- story: loko
+  steps:
+  - intent: loko
+  - action: utter_loko
+
+- story: aesthetic
+  steps:
+  - intent: aesthetic
+  - action: utter_aesthetic
+
+- story: citylight
+  steps:
+  - intent: citylight
+  - action: utter_citylight
+
+- story: kursikhusus
+  steps:
+  - intent: kursikhusus
+  - action: utter_kursikhusus
+
+- story: toiletkhusus
+  steps:
+  - intent: toiletkhusus
+  - action: utter_toiletkhusus
+
+- story: livemusic
+  steps:
+  - intent: livemusic
+  - action: utter_livemusic
+
+- story: danau
+  steps:
+  - intent: danau
+  - action: utter_danau
+
+- story: babychair
+  steps:
+  - intent: babychair
+  - action: utter_babychair
+
+- story: cabangfolkafe
+  steps:
+  - intent: cabangfolkafe
+  - action: utter_cabangfolkafe
+
+- story: cabangstarbucks
+  steps:
+  - intent: cabangstarbucks
+  - action: utter_cabangstarbucks
+
+- story: cabangkopijanjijiwa
+  steps:
+  - intent: cabangkopijanjijiwa
+  - action: utter_cabangkopijanjijiwa
+
+- story: cabangantarakata
+  steps:
+  - intent: cabangantarakata
+  - action: utter_cabangantarakata
+
+- story: cabanganakpanah
+  steps:
+  - intent: cabanganakpanah
+  - action: utter_cabanganakpanah
+
+- story: cabangkopikebun
+  steps:
+  - intent: cabangkopikebun
+  - action: utter_cabangkopikebun
+
+- story: rekomendasicabang
+  steps:
+  - intent: rekomendasicabang
+  - action: utter_rekomendasicabang
+
+- story: penutup
+  steps:
+  - intent: penutup
+  - action: utter_penutup
+
